@@ -44,7 +44,7 @@ const ColorBox = ({Palette}) => {
   return (
 
     <>
-      <div className="container">
+      <div className="container ">
         <div className="palette">
          <div onClick={() => {
            onClickColor(Palette[0]);
