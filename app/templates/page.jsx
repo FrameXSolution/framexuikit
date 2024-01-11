@@ -1,6 +1,6 @@
+"use client"
 import React from "react";
 import TemplateCard from "./_component/TemplateCard";
-
 const ListTemplate = [
   {
     name:"React Native with TypeScript tutorial.",
@@ -9,7 +9,7 @@ const ListTemplate = [
     image:"/Image/image.gif",
     author:"Aniket Sudke",
     sourceCode:"https://daily-dev-tips.com/posts/center-elements-with-tailwind-css/",
-    tech:["FaReact"]
+    tech:["HTML","CSS","JAVASCRIPT"]
   },
   {
     name:"React Native with TypeScript tutorial.",
@@ -18,7 +18,7 @@ const ListTemplate = [
     image:"/button.jpeg",
     author:"Siddhi Sudke",
     sourceCode:"https://daily-dev-tips.com/posts/center-elements-with-tailwind-css/",
-    tech:"FaReact"
+    tech:["REACT"]
   }
 ]
 

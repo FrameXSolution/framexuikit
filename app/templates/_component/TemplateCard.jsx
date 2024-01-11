@@ -1,7 +1,7 @@
 import Image from "next/image";
 // import thumb from "../public/thumb.svg";
-import { FaReact } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub  } from "react-icons/fa";
+
 
 const TemplateCard = ({name,type,mode,image,author,sourceCode,tech}) => {
   return (
@@ -27,8 +27,21 @@ const TemplateCard = ({name,type,mode,image,author,sourceCode,tech}) => {
           {name}
         </h1>
         <h4 className="m-2">Author : <span className="text-gray-500">{author}</span></h4>
-        <div className=" pt-10 pr-2 pl-2 flex flex-row  flex-wrap">
-          <div className="flex flex-row items-center m-2 bg-red-200 rounded-md p-1">
+        <div className=" pt-10 pr-2 pl-2 flex  flex-row  flex-wrap">
+          
+        {tech.map((stack) => (
+      <div className="flex flex-row items-center m-1 text-xs bg-gray-200 rounded p-1 text-primary">
+      {stack}
+      </div>
+    ))}
+        {/* {tech.map((stack) => (
+      <TechStack
+      techicon ={stack.name}
+       
+      />
+    ))} */}
+          
+          {/* <div className="flex flex-row items-center m-2 bg-red-200 rounded-md p-1">
           <tech />
           </div>
           <div className="flex flex-row items-center m-2 bg-red-200 rounded-md p-1">
@@ -36,12 +49,12 @@ const TemplateCard = ({name,type,mode,image,author,sourceCode,tech}) => {
           </div>
           <div className="flex flex-row items-center m-2 bg-red-200 rounded-md p-1">
           <FaReact />
-          </div>
+          </div> */}
           
         </div>
 
         <div className="flex flex-row">
-          <a  href={sourceCode} target="_blank" className="md:m-2 m-auto mt-8 bg-primary shadow-md shadow-[#bd7878]  pt-2 pb-2 pl-6 pr-4 rounded-xl flex flex-row justify-center items-center hover:bg-[#424bb6] ease-linear duration-300">
+          <a  href={sourceCode} target="_blank" className="md:m-2 m-auto mt-8 bg-primary shadow-md shadow-[#bd7878]  pt-2 pb-2 pl-6 pr-4 rounded-xl flex flex-row justify-center items-center hover:bg-[#9a3c3c] ease-linear duration-300">
           <FaGithub size={10} color="#fff" />
             <h1 className="text-white text-md font-semibold pl-2">
               Soruce Code
