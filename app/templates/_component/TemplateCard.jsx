@@ -14,7 +14,8 @@ const TemplateCard = ({name,type,mode,image,author,sourceCode,tech}) => {
           <Image
             src={image}
             alt="thumbnail"
-            layout="fill"
+            fill="fill"
+            
             objectFit="cover"
             className=" rounded-2xl"
           />

@@ -30,8 +30,9 @@ const templates = () => {
     <div className="grid h-screen place-items-center ">
     
 
-    {ListTemplate.map((card) => (
+    {ListTemplate.map((card,idx) => (
       <TemplateCard
+      key={idx}
        name ={card.name}
        type ={card.type}
        mode ={card.mode}
