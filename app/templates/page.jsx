@@ -20,6 +20,7 @@ const ListTemplate = [
     sourceCode:"https://daily-dev-tips.com/posts/center-elements-with-tailwind-css/",
     tech:["REACT"]
   }
+  
 ]
 
 

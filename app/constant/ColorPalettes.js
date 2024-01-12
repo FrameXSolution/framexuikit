@@ -15,6 +15,10 @@ const ColorPalettes = [
     sr: 4,
     Palettes: ["#411f2d", "#ac4147", "#f88863", "#ffc27f", "#ffe29a"],
   },
+  {
+    sr: 5,
+    Palettes: ["#0d192b", "#0c5149", "#0a8967", "#09c184", "#07f9a2"],
+  },
 ];
 
 export default ColorPalettes;

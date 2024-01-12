@@ -9,7 +9,7 @@ const Header = () => {
   <div className="mx-auto flex h-16 max-w-screen-xl items-center shadow-sm gap-8 px-4 sm:px-6 lg:px-8">
     <a className="block text-primary" href="/">
       <span className="sr-only">Home</span>
-      <Image src='/LogoWebsite.png' alt='logo' width={100} height={120} priority={false}/>
+      <Image src='/LogoWebsite.png' alt='logo'  style={{ width: 'auto',height:'auto' }} width={100} height={120} priority={false}/>
     </a>
 
     <div className="flex flex-1 items-center justify-end md:justify-between">

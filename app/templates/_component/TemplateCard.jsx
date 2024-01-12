@@ -14,10 +14,9 @@ const TemplateCard = ({name,type,mode,image,author,sourceCode,tech}) => {
           <Image
             src={image}
             alt="thumbnail"
-            fill="fill"
-            
-            objectFit="cover"
+            fill
             className=" rounded-2xl"
+            style={{ objectFit: 'cover' }}
           />
         </div>
       </div>
