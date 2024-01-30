@@ -12,9 +12,9 @@ const Header = () => {
       <Image src='/LogoWebsite.png' alt='logo'  style={{ width: 'auto',height:'auto' }} width={100} height={120} priority={false}/>
     </a>
 
-    <div className="flex flex-1 items-center justify-end md:justify-between">
+    <div className="flex flex-1 items-center justify-end md:justify-between ">
       <nav aria-label="Global" className="hidden md:block">
-        <ul className="flex items-center gap-6 text-sm">
+        <ul className="flex items-center gap-6 text-sm ">
           <li>
             <Link className="text-gray-500 transition hover:text-gray-500/75" href="/"> Home </Link>
           </li>
@@ -26,9 +26,9 @@ const Header = () => {
           <li>
             <Link className="text-gray-500 transition hover:text-gray-500/75" href="/colorpalettes"> Color Palettes </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="text-gray-500 transition hover:text-gray-500/75" href="/components"> Components </Link>
-          </li>
+          </li> */}
           <li>
             <Link className="text-gray-500 transition hover:text-gray-500/75" href="/templates"> Templates </Link>
           </li>
@@ -41,7 +41,7 @@ const Header = () => {
         </ul>
       </nav>
 
-      <div className="flex items-center gap-4">
+      {/* <div className="flex items-center gap-4">
         <div className="sm:flex sm:gap-4">
           <a
             className="block rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-white transition hover:bg-red-700"
@@ -73,7 +73,7 @@ const Header = () => {
             <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
-      </div>
+      </div> */}
     </div>
   </div>
 </header>

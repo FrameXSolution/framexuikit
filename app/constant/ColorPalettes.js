@@ -19,6 +19,38 @@ const ColorPalettes = [
     sr: 5,
     Palettes: ["#0d192b", "#0c5149", "#0a8967", "#09c184", "#07f9a2"],
   },
+  {
+    sr: 5,
+    Palettes: ["#001848", "#301860", "#483078", "#604878", "#906090"],
+  },
+  {
+    sr: 6,
+    Palettes: ["#595b5a", "#14c3a2", "#0de5a8", "#7cf49a", "#b8fd99"],
+  },
+  {
+    sr: 7,
+    Palettes: ["#001449", "#012677", "#005bc5", "#00b4fc", "#17f9ff"],
+  },
+  {
+    sr: 8,
+    Palettes: ["#2e1437", "#51425f", "#948e99", "#cad1c3", "#e7eed0"],
+  },
+  {
+    sr: 8,
+    Palettes: ["#336666", "#668c4d", "#99b333", "#ccd91a", "#ffff00"],
+  },
+  {
+    sr: 9,
+    Palettes: ["#c7003f", "#f90050", "#f96a00", "#faab00", "#daf204"],
+  },
+  {
+    sr: 10,
+    Palettes: ["#f38a8a", "#55443d", "#a0cab5", "#cde9ca", "#f1edd0"],
+  },
+  {
+    sr: 10,
+    Palettes: ["#ffedbf", "#f7803c", "#f54828", "#2e0d23", "#f8e4c1"],
+  },
 ];
 
 export default ColorPalettes;
